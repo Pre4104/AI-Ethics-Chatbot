@@ -1,8 +1,6 @@
-# AI-Ethics-Chatbot
-
 # 🤖 AI Ethics Chatbot
 
-An AI-powered chatbot built with **Google Gemini** and **Streamlit** that analyzes ethical dimensions of AI-related questions.
+An AI-powered chatbot built with Google Gemini and Streamlit that analyzes ethical dimensions of AI-related questions and scenarios.
 
 ---
 
@@ -10,7 +8,7 @@ An AI-powered chatbot built with **Google Gemini** and **Streamlit** that analyz
 
 - 💬 Chat interface powered by Streamlit
 - 🧠 Structured ethical analysis for AI-related queries
-- ⚠️ Risk identification and recommendations
+- ⚠️ Risk identification and actionable recommendations
 - 🚦 Risk level rating (Low / Medium / High)
 - 🙋 Natural responses for casual greetings
 
@@ -18,21 +16,25 @@ An AI-powered chatbot built with **Google Gemini** and **Streamlit** that analyz
 
 ## 🛠️ Tech Stack
 
-| Layer     | Technology              |
-|-----------|------------------------|
-| Frontend  | Streamlit              |
-| AI Model  | Google Gemini 3 Flash  |
-| Backend   | Python                 |
-| API Key   | python-dotenv          |
+| Layer      | Technology              |
+|------------|-------------------------|
+| Frontend   | Streamlit               |
+| AI Model   | Google Gemini 3 Flash   |
+| Backend    | Python                  |
+| API Key    | python-dotenv           |
 
 ---
 
+## 📁 Project Structure
+
+```
 ai-ethics-chatbot/
-├── chatbot.py              # Main Streamlit app
-├── requirements.txt    # Python dependencies
-├── .env.example        # API key template
-├── .gitignore          # Files excluded from GitHub
-└── README.md           # Project documentation
+├── app.py               # Main Streamlit app
+├── requirements.txt     # Python dependencies
+├── .env.example         # API key template
+├── .gitignore           # Files excluded from GitHub
+└── README.md            # Project documentation
+```
 
 ---
 
@@ -50,10 +52,10 @@ pip install -r requirements.txt
 ```
 
 ### 3. Set up your API key
-- Copy `.env.example` and rename it to `.env`
-- Add your Gemini API key:
-
+Copy `.env.example` and rename it to `.env`, then add your Gemini API key:
+```
 GEMINI_API_KEY=your_actual_key_here
+```
 
 ### 4. Run the app
 ```bash
@@ -64,9 +66,9 @@ streamlit run app.py
 
 ## 🔑 Getting a Gemini API Key
 
-1. Go to [Google AI Studio](https://aistudio.google.com/)
+1. Go to [Google AI Studio](https://aistudio.google.com)
 2. Sign in with your Google account
-3. Click **"Get API Key"**
+3. Click **Get API Key**
 4. Copy and paste it into your `.env` file
 
 ---
@@ -87,6 +89,8 @@ This chatbot provides educational perspectives on AI ethics. It is not a substit
 
 ## 👩‍💻 Author
 
-B S Lakshmi Prerana - 
+**B S Lakshmi Prerana**  
+BTech AI & ML, UVCE Bengaluru (2024–2028)  
+Interests: AI Ethics · Responsible AI · Governance, Risk & Compliance
 
-## 📁 Project Structure
+[LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN_HANDLE) · [GitHub](https://github.com/YOUR_USERNAME)
