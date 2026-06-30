@@ -4,17 +4,17 @@ An AI-powered chatbot built with Google Gemini and Streamlit that analyzes ethic
 
 ---
 
-## ✨ Features
+##  Features
 
-- 💬 Chat interface powered by Streamlit
-- 🧠 Structured ethical analysis for AI-related queries
-- ⚠️ Risk identification and actionable recommendations
-- 🚦 Risk level rating (Low / Medium / High)
-- 🙋 Natural responses for casual greetings
+-  Chat interface powered by Streamlit
+-  Structured ethical analysis for AI-related queries
+-  Risk identification and actionable recommendations
+-  Risk level rating (Low / Medium / High)
+-  Natural responses for casual greetings
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer      | Technology              |
 |------------|-------------------------|
@@ -38,7 +38,7 @@ ai-ethics-chatbot/
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ### 1. Clone the repository
 ```bash
@@ -64,7 +64,7 @@ streamlit run app.py
 
 ---
 
-## 🔑 Getting a Gemini API Key
+##  Getting a Gemini API Key
 
 1. Go to [Google AI Studio](https://aistudio.google.com)
 2. Sign in with your Google account
@@ -73,7 +73,7 @@ streamlit run app.py
 
 ---
 
-## 💡 Example Queries
+##  Example Queries
 
 - *"Is it ethical to use AI in hiring decisions?"*
 - *"What are the risks of facial recognition in public spaces?"*
@@ -81,13 +81,13 @@ streamlit run app.py
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This chatbot provides educational perspectives on AI ethics. It is not a substitute for professional ethical or legal advice.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **B S Lakshmi Prerana**  
 BTech AI & ML, UVCE Bengaluru (2024–2028)  
